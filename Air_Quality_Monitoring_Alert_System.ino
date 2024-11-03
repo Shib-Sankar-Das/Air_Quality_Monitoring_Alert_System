@@ -2,12 +2,12 @@
 #include <FirebaseESP32.h>
 
 // WiFi credentials
-#define WIFI_SSID "B_Cable_Network"
-#define WIFI_PASSWORD "9903585313"
+#define WIFI_SSID "WIFI_NAME" /* Write Your WIFI Name Here in between "" */
+#define WIFI_PASSWORD "WIFI_PASSWORD" /* Write Your WIFI Password Here in between "" */
 
 // Firebase credentials
-#define FIREBASE_HOST "https://air-pollution-detection-6d311-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "nupYKl08V7bVUJwMQnR4pQAZNYYxwfKtpd18gpoH"
+#define FIREBASE_HOST "https://firebaserealtimedatabase.com" /* Write Your Firebase Realtime Database URL Here in between "" */
+#define FIREBASE_AUTH "firebase_authentication_key" /* Write Your Firebase Database Authentication Key Here in between "" */
 
 // Hardware pin definitions
 #define MQ2_PIN 34       // Analog pin for MQ-2
